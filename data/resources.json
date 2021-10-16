@@ -1,0 +1,162 @@
+[
+    {
+      "category": "digital_ticketing",
+      "title": "Digital Ticketing Accounts", 
+      "active": true, 
+      "srcs": [
+        {
+          "name": "about",
+          "title": "About",
+          "type": 2,
+          "src": "//pachtml-production.s3-us-west-2.amazonaws.com/www/emich-multi/documents/ABOUT_PAGE.pdf"
+        },
+        {
+          "name": "overview",
+          "title": "Account Overview",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1BCoFyx4RN38NbUhFcubYzOL3M1Krfz_y/preview?usp=drive_web"
+        },
+        {
+          "name": "renewal",
+          "title": "Renewal Application",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1JTcWefDc1JYraEvmUw_Ce0bL8vdj_o0b/preview?usp=drive_web"
+        },
+        {
+          "name": "reissue",
+          "title": "Ticket Reissue",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/12WV554nfxQ3exdCxLCZGZ80rGAPmD1JH/preview?usp=drive_web"
+        },
+        {
+          "name": "exchange",
+          "title": "Ticket Exchange",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1BCoFyx4RN38NbUhFcubYzOL3M1Krfz_y/preview?usp=drive_web"
+        },
+        {
+          "name": "transfer",
+          "title": "Ticket Transfer",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1ajhTsfNMYicbxDYS2755qZAmxNi7sIHV/preview?usp=drive_web"
+        },
+        {
+          "name": "cancel",
+          "title": "Cancel Pending Ticket Transfer",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1E5PEHwJlBASkIYQELzyxrLmJA70AV_rd/preview?usp=drive_web"
+        },
+        {
+          "name": "return",
+          "title": "Ticket Return",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1E5p4tH8UfAwiEUnfJLmyNtKRPM6KUxPr/preview?usp=drive_web"
+        },
+        {
+          "name": "history",
+          "title": "Order History",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1gQ-X0HuuM8-3atyXMgBADp8ZLOy_zgP-/preview?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "category": "mobile_manage",
+      "title": "Mobile Ticketing", 
+      "active": true,
+      "srcs": [
+        {
+          "name": "mobtick",
+          "title": "About Mobile Tickets",
+          "type": 2,
+          "src": "//drive.google.com/a/emich.edu/file/d/1JBOg1GI5E1HiKmPt4a3-8eJfJTlvw51W/preview?usp=drive_web"
+        }, 
+        {
+          "name": "download",
+          "title": "Download Digital Tickets",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1EygTsFBbrF0Ea3LsVoiyS6ipqDAHB7Q_/preview?usp=drive_web"
+        }, 
+        {
+          "name": "mobiletransfer",
+          "title": "Mobile Ticket Transfer",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1I6sWZ7cwf_wNQSPqyUI6NGMk8rp9t7kX/preview?usp=drive_web"
+        },
+        {
+          "name": "accepttransfer",
+          "title": "Ticket Transfer Acceptance",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1_u_vixNGV1h_slRvFQfl3uLSA5FYksga/preview?usp=drive_web"
+        }
+      ]
+    }, 
+    {
+      "category": "parking",
+      "title": "Parking Maps", 
+      "active": true,
+      "srcs": [
+        {
+          "name": "fbpark",
+          "title": "Football Parking",
+          "type": 2,
+          "src": "//drive.google.com/a/emich.edu/file/d/1JBOg1GI5E1HiKmPt4a3-8eJfJTlvw51W/preview?usp=drive_web"
+        }, 
+        {
+          "name": "bsbpark",
+          "active": false, 
+          "title": "Baseball Parking",
+          "type": 1,
+          "src": ""
+        }, 
+        {
+          "name": "concertpark",
+          "active": false, 
+          "title": "Concert Parking",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1I6sWZ7cwf_wNQSPqyUI6NGMk8rp9t7kX/preview?usp=drive_web"
+        },
+        {
+          "name": "gradpark",
+          "active": false, 
+          "title": "Graduation Parking",
+          "type": 1,
+          "src": "//drive.google.com/a/emich.edu/file/d/1_u_vixNGV1h_slRvFQfl3uLSA5FYksga/preview?usp=drive_web"
+        }
+      ]
+    },
+    {
+      "category": "other",
+      "title": "Other", 
+      "active": true,
+      "srcs": [
+        {
+          "name": "stutick",
+          "title": "Student Tickets",
+          "type": 3,
+          "src": "//emueagles.evenue.net/cgi-bin/ncommerce3/SEGetGroupList?linkID=emich-multi&groupCode=&RSRC=&RDAT=&url=http%3A//emueagles.evenue.net/cgi-bin/ncommerce3/SEGetGroupList%3FgroupCode%3DATH%26linkID%3Demich-multi%26shopperContext%3D%26caller%3D%26appCode%3D&shopperContext=ST"
+        }, 
+        {
+          "name": "bags",
+          "title": "Bag Policy",
+          "type": 3,
+          "src": "https://emueagles.com/sports/2017/8/1/mid-american-conference-prohibited-items-list.aspx"
+        }
+      ]
+    },
+
+    {
+      "category": "lowercase_category",
+      "title": "Displayed Category", 
+      "active": false,
+      "srcs": [
+        {
+          "name": "one word reference to resource link title",
+          "title": "Displayed Resource Link Title",
+          "type": "1 = VIDEO, 2 = PDF, 3 = WEB LINK *unquoted numbers",
+          "src": "//link-to-src note: if google drive change 'view?us' to 'preview?us'"
+        }
+      ]
+    }
+
+  ]
