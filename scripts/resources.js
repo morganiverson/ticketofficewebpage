@@ -10,7 +10,7 @@ const video_src = document.getElementById('video_src')
 
 window.onload = () => {
 	//get file details
-	fetch('../data/resources.json')
+	fetch('../ticketofficewebpage/data/resources.json')
 		.then(response => response.json())
 		.then(jsonResponse => {
 			resources = jsonResponse;
