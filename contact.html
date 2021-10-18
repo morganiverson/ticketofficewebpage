@@ -5,25 +5,26 @@
     <title>Contact Us</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
+<!-- 
     <script src = "//morganiverson.github.io/ticketofficewebpage/scripts/textarea.js"></script>
     <script src = "//morganiverson.github.io/ticketofficewebpage/scripts/contact.js"></script>
 
     <link rel = "stylesheet" href = "//morganiverson.github.io/ticketofficewebpage/styles/contact.css">
-    <link rel = "stylesheet" href = "//morganiverson.github.io/ticketofficewebpage/styles/header.css">
+    <link rel = "stylesheet" href = "//morganiverson.github.io/ticketofficewebpage/styles/header.css"> -->
 
 
-    <!-- <link rel = "stylesheet" href = "/ticketofficewebpage/styles/contact.css">
-    <link rel = "stylesheet" href = "/ticketofficewebpage/styles/header.css">
-    <script src = "/ticketofficewebpage/scripts/textarea.js"></script>
-    <script src = "/ticketofficewebpage/scripts/contact.js"></script> -->
+    <link rel = "stylesheet" href = "/styles/contact.css">
+    <link rel = "stylesheet" href = "/styles/header.css">
+    <script src = "/scripts/textarea.js"></script>
+    <script src = "/scripts/contact.js"></script>
+
+    <!-- <link rel = "stylesheet" href = "/styles/lightbox.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
         integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 
 </head>
@@ -35,7 +36,18 @@
         Contact Us<br>
     </div>
 
-    <div class='body'>
+        <!-- ==================== MESSAGE SEND SUCCESS MODAL ==================== -->
+
+    <div id='server-send-success' onclick="hideSendSuccess();"> 
+        <div id = "success-message">
+            <div >Message Sent!</div>
+            <hr style = "width: 80%">
+            <span style = "font-size: 15px;font-weight: 400;">Thank you for supporting your EMU Eagles!</span>
+
+            </div>
+	</div>
+
+    <div class='page_body'>
 
         <div class='title'>Contact Us</div>
         <hr>
@@ -90,21 +102,7 @@
 
             </div>
         </div>
-        <!-- ==================== MESSAGE SEND SUCCESS MODAL ==================== -->
 
-        <div class = "server-response" id='server-send-success'>
-            <div id="send-success-modal" class="w3-modal w3-animate-opacity" onclick= "hideSendSuccess()" style = "padding:0; display: flex;">
-                <div class="w3-modal-content modal-container" style = "background-color: transparent; ">
-                  <div class="w3-container" style = "width: fit-content; margin: auto;">
-                    <div id = "success-message">
-                        <div >Message Sent!</div>
-                        <hr style = "width: 80%">
-                        <span style = "font-size: 15px;font-weight: 400;">Thank you for supporting your EMU Eagles!</span>
-                    </div>
-                  </div>
-                </div>
-        </div>
-            </div>
         <hr>
         <!-- ==================== CONTACT DETAILS ==================== -->
 

@@ -170,6 +170,8 @@ function hideSendSuccess() {
 	resetForm()
 }
 function hideSendError() {
+	document.body.style.overflow = "auto";
+
 	document.getElementById("server-send-error").style.display = "none";
 }
 
