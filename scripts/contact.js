@@ -36,12 +36,6 @@ window.onload = () => {
 	})
 }
 
-
-function modalEvents(modalID) {
-	modal = document.getElementById(modalID)
-	modal.onclick = () => { modal.style.display = 'none' };
-}
-
 function validateEmail(email) {
 	var re = /\S+@\S+\.\S+/;
 	return re.test(email);
@@ -157,14 +151,18 @@ function send() {
 //SHOW/HIDE ALERTS 
 function showSendSuccess() {
 	hideSendError();
+	modal = document.getElementById("server-send-success");
 	document.body.style.overflow = "hidden";
-	document.getElementById("server-send-success").style.display = 'flex';
+	
+	modal.style.top = window.scrollY;
+	modal.style.display = 'flex';
 }
 function showSendError() {
 	document.getElementById("server-send-error").style.display = "flex";
 }
 
 function hideSendSuccess() {
+	document.body.style.overflow = "auto";
 	document.getElementById("server-send-success").style.display = 'none';
 	resetForm()
 }

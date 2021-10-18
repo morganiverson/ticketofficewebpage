@@ -112,13 +112,6 @@ textarea {
 	width: 80%;
 	align-self: center;
 }
-.modal-container{
-	height: 100%;
-	width: 100%; 
-	display:flex; 
-	justify-content:center;
-	align-items:center;
-}
 .original {
 	align-self: flex-start;
 	font-family: Verdana, sans-serif;
