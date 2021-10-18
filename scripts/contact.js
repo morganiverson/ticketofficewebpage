@@ -23,7 +23,6 @@ window.onload = () => {
 	resetForm();
 
 	input_error_pairs.forEach(pair => {
-		// console.log(pair.input_name)
 		document.getElementById(pair.input_name).addEventListener('keyup', () => {
 			document.getElementById(pair.error_id).style.display = 'none';
 			document.getElementById("server-send-error").style.display = "none"
