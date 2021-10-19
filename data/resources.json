@@ -100,7 +100,7 @@
           "name": "fbpark",
           "title": "Football Parking",
           "type": 2,
-          "src": "//pachtml-production.s3-us-west-2.amazonaws.com/www/emich-multi/images/other/FBParkingMap.pngb"
+          "src": "//pachtml-production.s3-us-west-2.amazonaws.com/www/emich-multi/images/other/FBParkingMap.png"
         }, 
         {
           "name": "bsbpark",
