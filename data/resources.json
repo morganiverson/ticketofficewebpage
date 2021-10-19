@@ -100,7 +100,7 @@
           "name": "fbpark",
           "title": "Football Parking",
           "type": 2,
-          "src": "//pachtml-production.s3-us-west-2.amazonaws.com/www/emich-multi/images/other/FBParkingMap.png"
+          "src": "//drive.google.com/file/d/1lPbqpLsRM1zjy8C9u5KVyF2E3VLOxt57/preview?usp=drive_web"
         }, 
         {
           "name": "bsbpark",
@@ -148,7 +148,7 @@
           "name": "one word reference to resource link title",
           "title": "Displayed Resource Link Title",
           "type": "1 = VIDEO, 2 = PDF, 3 = WEB LINK *unquoted numbers",
-          "src": "//link-to-src note: if google drive change 'view?us' to 'preview?us'"
+          "src": "//link-to-src note: if google drive change 'view?us' to 'preview?us' and replace 'usp=sharing' with 'usp=drive_web'"
         }
       ]
     }
