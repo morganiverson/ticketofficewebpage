@@ -21,27 +21,30 @@ const input_error_pairs = [
 
 window.onload = () => {
 
-	fetch('//morganiverson.github.io/ticketofficewebpage/data/ContactReasons.json')
-	// fetch('/data/ContactReasons.json')
-		.then(response => response.json())
-		.then(jsonResponse => {
-			reasons = jsonResponse;
-		})
-		.then(
-			() => {
-				reasons.sort()
-				console.log(reasons);
-				selector = document.getElementById("reason");
 
-				reasons.forEach(item => {
-					selector.innerHTML+= selectOption(item)
-				})
-				selector.innerHTML+= selectOption("Other")
-			}
-		)
+	/** LOAD CONTACT REASONS FROM JSON FILE */
+	// fetch('//morganiverson.github.io/ticketofficewebpage/data/ContactReasons.json')
+	// // fetch('/data/ContactReasons.json')
+	// 	.then(response => response.json())
+	// 	.then(jsonResponse => {
+	// 		reasons = jsonResponse;
+	// 	})
+	// 	.then(
+	// 		() => {
+	// 			reasons.sort()
+	// 			console.log(reasons);
+	// 			selector = document.getElementById("reason");
+
+	// 			reasons.forEach(item => {
+	// 				selector.innerHTML+= selectOption(item)
+	// 			})
+	// 			selector.innerHTML+= selectOption("Other")
+	// 		}
+	// 	)
 
 
 	resetForm();
+	
 	input_error_pairs.forEach(pair => {
 		document.getElementById(pair.input_name).addEventListener('keyup', () => {
 			document.getElementById(pair.error_id).style.display = 'none';

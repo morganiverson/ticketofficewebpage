@@ -120,18 +120,18 @@ function isMobile() {
 function getAll(list){
 	body = document.getElementById("page_body")
 	html = ""
-	list.forEach(resource_obj => {
+	list.forEach(resourceGroup => {
 
-		if(resource_obj.active) {
-			html+= resourceHeader(resource_obj.title);
+		if(resourceGroup.active) {
+			html+= resourceHeader(resourceGroup.title);
 			html+= "<ul>"
-			resource_obj.srcs.forEach(src => {
-				if ("active" in src) {
-					if (src.active) {
-						html+= resourceLink(src, resource_obj.category)
+			resourceGroup.srcs.forEach(resource => {
+				if ("active" in resource) {
+					if (resource.active) {
+						html+= resourceLink(resource, resourceGroup.category)
 					}
 				}
-				else html+= resourceLink(src, resource_obj.category)
+				else html+= resourceLink(resource, resourceGroup.category)
 			})
 			html+= "</ul>"
 		}
@@ -142,6 +142,6 @@ function resourceHeader(title){
 	return "<div class='resource_header'>" + title.toUpperCase() + "</div>"
 }
 function resourceLink(resource, category){
-	return "<li class='resource_link' category='" + category + "' name='" + resource.name + "' onclick='openviewer(this)'>" + resource.title + "</li>" + 
+	return "<li class='resource_link' category='" + category + "' name='" + resource.name + "' media = '" + resource.src + "' onclick='openviewer(this)'>" + resource.title + "</li>" + 
 	"<hr class='resource_separator'></hr>"
 }
